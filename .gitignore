@@ -1,0 +1,22 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Models and Data (preventing large/sensitive files from being committed)
+*.joblib
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/saved_models/*
+!models/saved_models/.gitkeep
+
+# Jupyter Notebooks
+.ipynb_checkpoints
