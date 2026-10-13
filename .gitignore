@@ -19,4 +19,9 @@ models/saved_models/*
 !models/saved_models/.gitkeep
 
 # Jupyter Notebooks
-.ipynb_checkpoints# Environments
+.ipynb_checkpoints
+
+# MLflow
+mlruns/
+mlflow.db
+
